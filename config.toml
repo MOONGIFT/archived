@@ -1,0 +1,38 @@
+baseURL = "https://www.moongift.jp/"
+languageCode = "ja-JP"
+title = "MOONGIFT Archived"
+theme = "m10c"
+paginate = 20
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "このサイトについて"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "MOONGIFT"
+  description = "MOONGIFTはオープンソース・ソフトウェアを紹介するブログです。2021年07月16日で更新停止しました"
+  avatar = "/logo.jpg"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/MOONGIFT/archived"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/moongift"
