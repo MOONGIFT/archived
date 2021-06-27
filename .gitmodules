@@ -1,0 +1,10 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:MeiK2333/github-style.git
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = git@github.com:vaga/hugo-theme-m10c.git
+
